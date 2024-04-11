@@ -1,0 +1,84 @@
+{
+  "Overview": [
+    {
+      "status":"Unresolved", 
+      "value": 60
+    },
+    {
+      "status": "Overdue",
+      "value" : 16
+    },
+    {
+      "status": "Open",
+      "value": 43
+    },
+    {
+      "status" : "Onhold",
+      "value": 64
+    }
+  ],
+
+  "Trends" : [
+    {
+      "status" : "Resolved",
+      "value" : 449
+    },
+    {
+      "status":"Recieved",
+      "value": 426
+    },
+    {
+      "status":"Average First Response Time",
+      "value": "33m"
+    },
+    {
+      "status": "Average Response Time",
+      "value": "3h 8m"
+    },
+    {
+      "status": "Resolution within SLA",
+      "value": "94%"
+    }
+  ],
+
+
+  "unresolvedTickets": [
+    {
+      "status": "Waiting On Feature Request",
+      "value": 4238
+    },
+    {
+      "status": "Awaiting Customer Response",
+      "value" : 1005
+    },
+    {
+      "status": "Awaiting Developer Fix",
+      "value": 914
+    },
+    {
+      "status": "Pending",
+      "value": 281
+    }
+    ],
+    
+    "tasks": [
+      {
+        "status": "Finish Ticket Update",
+        "value" : "URGENT",
+        "classes" : "fa-regular fa-circle text-secondary",
+        "btn" : "btn-warning"
+      },
+      {
+        "status": "Create New Ticket Example",
+        "value" : "NEW",
+        "classes" : "fa-regular fa-circle text-secondary",
+        "btn" : "btn-success"
+      },
+      {
+        "status": "Update Ticket Report",
+        "value" : "DEFAULT",
+        "classes" : "fa-solid fa-circle-check text-primary",
+        "btn" : "btn-secondary"
+      }
+    ]
+  }

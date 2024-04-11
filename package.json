@@ -1,0 +1,16 @@
+{
+  "name": "inm320_bootstrap_assignment",
+  "version": "1.0.0",
+  "description": "Group Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm  run lite",
+    "lite": "lite-server"
+  },
+  "keywords": [],
+  "author": "Balaji Ramesh, and Ramon Charlemagne Lianko",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
